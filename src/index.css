@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F8F5FF;
+    color: #312E81;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Accessible and vibrant slot styling on Lavender theme */
+.slot-available {
+  background: #FFFFFF;
+  border-color: #10B981;
+  color: #065F46;
+}
+.slot-available:hover {
+  background: #ECFDF5;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.25);
+}
+
+.slot-reserved {
+  background: #FFFBEB;
+  border-color: #F59E0B;
+  color: #92400E;
+}
+
+.slot-occupied {
+  background: #FEF2F2;
+  border-color: #EF4444;
+  color: #991B1B;
+}
+
+.slot-ev {
+  background: #EDE9FE;
+  border-color: #7C3AED;
+  color: #5B21B6;
+}
+.slot-ev:hover {
+  background: #DDD6FE;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.25);
+}
+
+/* Lavender card styles */
+.lavender-card {
+  background-color: #FFFFFF;
+  border: 1px solid #EDE9FE;
+  box-shadow: 0 4px 20px -2px rgba(124, 58, 237, 0.05);
+  border-radius: 1.5rem;
+}
+
+.lavender-card-hover {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.lavender-card-hover:hover {
+  border-color: #A78BFA;
+  box-shadow: 0 10px 25px -4px rgba(124, 58, 237, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Lavender scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F5FF;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDD6FE;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C4B5FD;
+}

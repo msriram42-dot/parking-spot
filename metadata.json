@@ -1,0 +1,6 @@
+{
+  "name": "ParkingSpot AI — Smart Parking Reservation & Management System",
+  "description": "Intelligent parking reservation and management platform with AI ParkBot, interactive slot maps, real-time availability, QR ticketing, Razorpay payments, and role-based commuter, owner, and admin dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
